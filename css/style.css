@@ -1,22 +1,45 @@
 /*  welcome page*/
-
+body{
+  padding:0 ;
+  margin:0;
+}
 #background_container{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(https://www.tokkoro.com/picsup/2627974-clouds-4k-free-pc-wallpaper-hd.jpg);
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-      
+    height:100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;  
+    justify-content: center;   
+    align-items: center;
 }
 
-#text{
+.background_container video{
+  position: absolute;
+  top:0;
+  left: 0;
+  object-fit:cover ;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.background_container .text{
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  top: 8rem;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.background_container h1{
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
     text-align: center;
     color: white;
-    margin: 250px;
     }
    
 .myButton {
