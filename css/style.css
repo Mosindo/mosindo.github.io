@@ -69,7 +69,8 @@ a {
   
   .secondary-block {
     color: rgb(255, 255, 255);
-    background-color: #87CEEB;
+    background: rgb(183,233,247);
+    background: linear-gradient(90deg, rgba(183,233,247,1) 29%, rgba(146,223,243,1) 63%, rgba(135,206,235,1) 100%);
   }
   
   nav {
