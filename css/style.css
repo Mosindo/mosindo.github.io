@@ -13,6 +13,7 @@ video{
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
+  filter: brightness(1.6);
 } 
 #text{
   position: relative;
