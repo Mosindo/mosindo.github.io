@@ -69,7 +69,7 @@ a {
   
   .secondary-block {
     color: rgb(255, 255, 255);
-    background rgba(135,206,235,1) ;
+    background :rgba(135,206,235,1) ;
   }
   
   nav {
