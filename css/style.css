@@ -21,11 +21,20 @@
 body ,h1,h2,h3,p,span{
 font-family: "roboto";
 }
-
+h1{
+  font-size: 1em;
+  font-family: roboto-bold;
+}
 h2{
   color: #8faadc;
   margin: 32px;
   text-align: center;
+  font-family: roboto-bold;
+}
+h3{
+  font-size: 1em;
+  font-size: 1em;
+  font-family: roboto-bold;
 }
 /*navbar*/  
 nav{
@@ -36,7 +45,8 @@ nav{
 img{
   height: 150px;
   width: 150px;
-  border-radius: 40%;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px #dde5f4;
   margin: 20px;
 }
 
@@ -60,9 +70,14 @@ img{
   height: 300px;
   width: 400px;
   margin: 10px;
-  padding: 15px;
+  padding: 20px;
+  box-shadow: 10px 5px 5px #dadada;
+  border-radius: 10%;
+  
 }
-
+.blue:hover{
+  transform: scale(1.1) ;
+}
 .blue h4{
   text-align: center;
   color: #8faadc;
@@ -72,3 +87,7 @@ img{
   color: #484848 ;
 }
 /*experience*/
+ /* link*/
+ .links{
+   display:flex;
+ }
