@@ -1,12 +1,12 @@
 /*  font*/
 @font-face {
-  font-family:"roboto";
+  font-family: "roboto";
   src: url("./../font/Roboto-Light.ttf");
   font-style: normal;
 }
 
 @font-face {
-  font-family:"roboto-italic";
+  font-family: "roboto-italic";
   src: url("./../font/Roboto-LightItalic.ttf");
   font-style: normal;
 }
@@ -16,33 +16,44 @@
   src: url("./../font/Roboto-Medium.ttf");
   font-style: bold;
 }
+
 /*CV general #8faadc #f2f2f2*/
 
-body ,h1,h2,h3,p,span{
-font-family: "roboto";
+body,
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: "roboto";
 }
-h1{
+
+h1 {
   font-size: 1em;
   font-family: roboto-bold;
 }
-h2{
+
+h2 {
   color: #8faadc;
   margin: 32px;
   text-align: center;
   font-family: roboto-bold;
 }
-h3{
+
+h3 {
   font-size: 1em;
   font-size: 1em;
   font-family: roboto-bold;
 }
-/*navbar*/  
-nav{
+
+/*navbar*/
+nav {
   background-color: #8faadc;
 
 }
+
 /*header*/
-img{
+img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -50,44 +61,76 @@ img{
   margin: 20px;
 }
 
-.col-12{
-  display:flex;
+.col-12 {
+  display: flex;
   justify-content: center;
 }
-.presentation{
+
+#presentation {
   text-align: center;
 }
 
-.trait{
+.trait {
   height: 2px;
   margin: 32px 200px;
   background-color: #8faadc;
 }
+
 /*compétence*/
 
-.blue{
-  background-color:#dde5f4;
+.blue {
+  background-color: #dde5f4;
   height: 300px;
   width: 400px;
   margin: 10px;
   padding: 20px;
   box-shadow: 10px 5px 5px #dadada;
   border-radius: 10%;
-  
+
 }
-.blue:hover{
-  transform: scale(1.1) ;
+
+.blue:hover {
+  transform: scale(1.1);
 }
-.blue h4{
+
+.blue h4 {
   text-align: center;
   color: #8faadc;
 }
 
-.blue li{
-  color: #484848 ;
+.blue li {
+  color: #484848;
 }
+
 /*experience*/
- /* link*/
- .links{
-   display:flex;
- }
+/* link*/
+footer {
+  background-color: #8faadc;
+  height: 144px;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  height: 144px;
+}
+
+.links li {
+  color: #8faadc;
+}
+
+i {
+  color: #ffffff;
+  font-size: 0.5rem;
+  margin: 2px;
+}
+
+a {
+  color: #ffffff;
+}
+.git i:hover{
+  color: #484848;
+}
