@@ -58,7 +58,7 @@ img {
   width: 150px;
   border-radius: 50%;
   box-shadow: 10px 5px 5px #dde5f4;
-  margin: 20px;
+  margin: 50px;
 }
 
 .col-12 {
@@ -72,7 +72,7 @@ img {
 
 .trait {
   height: 2px;
-  margin: 32px 200px;
+  margin: 64px 200px;
   background-color: #8faadc;
 }
 
@@ -89,10 +89,22 @@ img {
 
 }
 
+.soft-skills{
+  height: 400px;;
+}
+
+.soft-skills ul{
+  margin-top: 60px;
+  
+}
+
+.skills{
+  height: 200px;
+}
+
 .blue:hover {
   transform: scale(1.1);
 }
-
 .blue h4 {
   text-align: center;
   color: #8faadc;
@@ -103,10 +115,31 @@ img {
 }
 
 /*experience*/
+
+.experience{
+ height: 250px;
+ padding-right:32px;
+ padding-left: 16px;
+}
+.experience ul{
+  padding: 24px 24px;
+}
+/*formation*/
+.formation{
+  height: 200px;
+  padding: 40px 24px;
+}
+
+/* interêt*/
+
+.interêt{
+  text-align: center;
+  margin-bottom: 48px ;
+}
 /* link*/
 footer {
   background-color: #8faadc;
-  height: 144px;
+  height: 96px;
 }
 
 .links ul {
@@ -115,22 +148,49 @@ footer {
   justify-content: center;
   text-decoration: none;
   list-style: none;
-  height: 144px;
+  padding: 0px;
+  height: 96px;
 }
 
-.links li {
+.links li  {
   color: #8faadc;
+  justify-content: center;
+  margin: 15px;
+  
 }
 
 i {
   color: #ffffff;
   font-size: 0.5rem;
-  margin: 2px;
+  text-align: center;
 }
 
 a {
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto-bold;
 }
-.git i:hover{
-  color: #484848;
+#git i:hover ,#git a:hover{
+  color: #24292E;
+  text-decoration:none;
+  transform: scale(1.1);
+}
+
+#linkedin i:hover ,#linkedin a:hover{
+  color:#0A66C2;
+  text-decoration:none;
+  transform: scale(1.1);
+}
+
+#twitter i:hover ,#twitter a:hover{
+  color:#1A91DA;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+#contact i:hover ,#contact a:hover{
+  color: #E4B420;
+  text-decoration:none;
+  transform: scale(1.1);
 }
