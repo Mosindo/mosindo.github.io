@@ -1,3 +1,4 @@
+/* !!! reste à centraliser les listes de hard skills,langue et programming languages dans la version mobil-first*/
 /*  font*/
 @font-face {
   font-family: "roboto";
@@ -90,13 +91,12 @@ img {
 }
 
 .soft-skills{
-  height: 400px;;
+
+  margin: 10px 0px 20px 0px;
+  width: 340px;
+  justify-content: center;
 }
 
-.soft-skills ul{
-  margin-top: 60px;
-  
-}
 
 .skills{
   height: 200px;
