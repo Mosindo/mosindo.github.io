@@ -86,7 +86,6 @@ img {
   margin: 10px;
   padding: 20px;
   box-shadow: 10px 5px 5px #dadada;
-  border-radius: 10%;
 
 }
 
@@ -114,13 +113,27 @@ img {
   color: #484848;
 }
 /*card*/
-.card {
-    height:  none; 
-    width:  none; 
-    border-radius: none; 
-    box-shadow:  none;
-    margin:  none;
+.card{
+  box-shadow: 10px 5px 5px #dde5f4;
+}
+.card img{
+    border-radius: 0px;
+    margin: 0px;
+    box-shadow: none;
   }
+  .card a{
+    color: black;
+  }
+  .card a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover{
+    
+  text-align: none;
+  color: black;
+}
 
 /*experience*/
 

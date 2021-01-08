@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "JosefinSans Light";
+    src: url("./../fonts/JosefinSans-Light.ttf") ;
+   }
+
+   @font-face {
+    font-family: "josefinsanssemibold";
+    src: url("./../fonts/JosefinSans-SemiBold.ttf") ;
+   }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 300px;
+}
+
+div{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ 
+a:hover{
+    
+    text-align: none;
+    color: #FFFFFF;
+  }
+
+
+  
+/*header*/
+
+h1{
+    float: left;
+    font-family: josefinsanssemibold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+ 
+nav{
+    float: right;
+    margin-top: 10px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: JosefinSans Light;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#navbar{
+    color: rgb(255, 255, 255);
+    background-color:#55d6c2 ;
+    height: 50px;   
+}
+.blue-block{
+    color: rgb(255, 255, 255);
+    background-color:#55d6c2 ;
+
+}
+
+/*main*/
+
+#main{ 
+  background-image: url(./../img/header.jpg);
+  height: 500px;
+  background-size: cover ;
+  background-position: center;
+  overflow: visible;
+  justify-content: center;
+  align-content: center;
+}
+#main-title{
+    justify-content: center;  
+    align-content: center;
+}
+
+h2{
+    font-family: josefinsanssemibold;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    
+ }
+
+ h3{
+    font-family: josefinsanssemibold;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
+    
+
+/*about*/
+
+p{
+    font-family: JosefinSans Light;
+    color: #FFFFFF;
+    font-size: 25px;
+ }
+
+#about {
+    height: 500px;
+    padding: 50px;
+}
+#about-text{
+    width: 900px;
+    float: left;
+}
+#profile{
+    float:right;
+}
+
+/*service*/
+#service{
+    padding: 50px;
+    height: 400px;
+}
+
+#service p{
+    color: #000000;
+    clear: both;
+}
+
+
+#services-block{
+    display: inline-flex;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#services-block img{
+    width: 400px;
+}
+
+#service1{
+    border-radius: 25px;
+    box-shadow: 1px 1px 12px rgb(196, 196, 196);
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+
+}
+#service2{
+    border-radius: 25px;
+    box-shadow: 1px 1px 12px rgb(196, 196, 196);
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+
+}
+
+.button1 {
+    font-family: JosefinSans Light;
+    font-size: 20px;
+    background-color: white; 
+    color: #55d6c2; 
+    border: 2px solid #55d6c2;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+.button1:hover {
+    background-color: #55d6c2;
+    color: white;
+  }
+
+/*contact*/
+#contact{
+    height: 350px;
+    margin-top: 100px;
+
+}
+
+#adress{
+    float: left;
+    margin-right: 600px;
+}
+
+/*formulaire*/
+
+.formulaire{
+    float: right;
+    margin-right:;
+}
+
+.form {
+      display: inline-block;
+      justify-content: space-around;
+      margin-top: 0px;
+      margin-top: 0px;
+  }
+  
+.email {
+    font-family: JosefinSans Light;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    margin-top:20px;
+  }
+
+.input1{
+    background-color:#FFFFFF; 
+    color:#55d6c2; 
+    border: 2px solid #313030;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0px;
+    margin-top:10px;
+    font-family: JosefinSans Light;
+    font-size: 25px;
+}
+.input2 {
+    background-color: #55d6c2;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 86px;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: JosefinSans Light;
+    font-size: 25px;
+}
+
+.input2:hover {
+    background-color: #FFFFFF;
+    color:#55d6c2;
+  }
