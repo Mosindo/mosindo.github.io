@@ -116,6 +116,10 @@ img {
 .card{
   box-shadow: 10px 5px 5px #dde5f4;
 }
+
+.card:hover {
+  transform: scale(1.1);
+}
 .card img{
     border-radius: 0px;
     margin: 0px;
