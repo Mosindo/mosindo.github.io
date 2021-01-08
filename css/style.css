@@ -113,6 +113,14 @@ img {
 .blue li {
   color: #484848;
 }
+/*card*/
+.card {
+    height:  none; 
+    width:  none; 
+    border-radius: none; 
+    box-shadow:  none;
+    margin:  none;
+  }
 
 /*experience*/
 
