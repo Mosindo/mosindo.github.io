@@ -30,7 +30,7 @@ span {
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: roboto-bold;
 }
 
@@ -51,6 +51,11 @@ h3 {
 nav {
   background-color: #8faadc;
 
+}
+
+#navbarSupportedContent{
+  display: flex;
+  justify-content: start;
 }
 
 /*header*/
