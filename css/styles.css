@@ -53,10 +53,6 @@ nav {
 
 }
 
-#navbarSupportedContent{
-  display: flex;
-  justify-content: start;
-}
 
 /*header*/
 img {
