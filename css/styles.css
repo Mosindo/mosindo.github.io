@@ -30,8 +30,8 @@ span {
 }
 
 h1 {
-  font-size: 1.5em;
-  font-family: roboto-bold;
+  font-size: 12px;
+  margin-right: 9em;
 }
 
 h2 {
@@ -50,12 +50,14 @@ h3 {
 /*navbar*/
 nav {
   background-color: #8faadc;
-
 }
 
 
 /*header*/
-img {
+scroll-container{
+  scroll-behavior: smooth;
+}
+.profil-pic{
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -87,18 +89,15 @@ img {
   margin: 10px;
   padding: 20px;
   box-shadow: 10px 5px 5px #dadada;
-
 }
 
-.soft-skills{
-
+.soft-skills {
   margin: 10px 0px 20px 0px;
   width: 340px;
   justify-content: center;
 }
 
-
-.skills{
+.skills {
   height: 200px;
 }
 
@@ -114,53 +113,52 @@ img {
   color: #484848;
 }
 /*card*/
-.card{
+.card {
   box-shadow: 10px 5px 5px #dde5f4;
 }
 
 .card:hover {
   transform: scale(1.1);
 }
-.card img{
-    border-radius: 0px;
-    margin: 0px;
-    box-shadow: none;
-  }
-  .card a{
-    color: black;
-  }
-  .card a:link{
-    text-decoration: none;
-    color: black;
+/* .card img {
+  border-radius: 0px;
+  margin: 0px;
+  box-shadow: none;
+} */
+.card a {
+  color: black;
+}
+.card a:link {
+  text-decoration: none;
+  color: black;
 }
 
-.card a:hover{
-    
+.card a:hover {
   text-align: none;
   color: black;
 }
 
 /*experience*/
 
-.experience{
- height: 250px;
- padding-right:32px;
- padding-left: 16px;
+.experience {
+  height: 250px;
+  padding-right: 32px;
+  padding-left: 16px;
 }
-.experience ul{
+.experience ul {
   padding: 24px 24px;
 }
 /*formation*/
-.formation{
+.formation {
   height: 200px;
   padding: 40px 24px;
 }
 
 /* interêt*/
 
-.interêt{
+.interêt {
   text-align: center;
-  margin-bottom: 48px ;
+  margin-bottom: 48px;
 }
 /* link*/
 footer {
@@ -178,16 +176,15 @@ footer {
   height: 96px;
 }
 
-.links li  {
+.links li {
   color: #8faadc;
   justify-content: center;
   margin: 15px;
-  
 }
 
 i {
   color: #ffffff;
-  font-size: 0.5rem;
+  scroll-behavior: smooth;
   text-align: center;
 }
 
@@ -196,27 +193,32 @@ a {
   display: flex;
   flex-direction: column;
   font-family: roboto-bold;
+  text-decoration: none;
 }
-#git i:hover ,#git a:hover{
-  color: #24292E;
-  text-decoration:none;
-  transform: scale(1.1);
-}
-
-#linkedin i:hover ,#linkedin a:hover{
-  color:#0A66C2;
-  text-decoration:none;
-  transform: scale(1.1);
-}
-
-#twitter i:hover ,#twitter a:hover{
-  color:#1A91DA;
+#git i:hover,
+#git a:hover {
+  color: #24292e;
   text-decoration: none;
   transform: scale(1.1);
 }
 
-#contact i:hover ,#contact a:hover{
-  color: #E4B420;
-  text-decoration:none;
+#linkedin i:hover,
+#linkedin a:hover {
+  color: #0a66c2;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+#twitter i:hover,
+#twitter a:hover {
+  color: #1a91da;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+#contact i:hover,
+#contact a:hover {
+  color: #e4b420;
+  text-decoration: none;
   transform: scale(1.1);
 }
