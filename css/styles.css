@@ -188,13 +188,17 @@ i {
   text-align: center;
 }
 
-li a {
+ a {
   color: #ffffff;
   display: flex;
   flex-direction: column;
   font-family: roboto-bold;
   text-decoration: none;
 }
+#git a, #linkedin a{
+  text-decoration: none;
+}
+
 #git i:hover,
 #git a:hover {
   color: #24292e;
